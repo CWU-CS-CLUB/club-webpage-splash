@@ -1,5 +1,5 @@
 body {
-  background-color: powderblue;
+  background-color: #023020;
   border-style: solid;
 }
 
@@ -53,8 +53,9 @@ p {
 }
 
 .banner {
-    background-image: url('club.png');
+    background-image: url('rain.gif');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
+    min-height: 100%;
 }
