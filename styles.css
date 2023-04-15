@@ -39,6 +39,8 @@ th, td {
 
 .glow {
   font-size: 80px;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
   animation: flicker 1.5s infinite alternate;
   color: #fff;
