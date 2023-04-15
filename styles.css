@@ -1,6 +1,7 @@
 body {
   background-color: #023020;
   border-style: solid;
+  border-color: cyan;
 }
 
 h1 {
@@ -8,8 +9,15 @@ h1 {
   text-align: center;
 }
 
+footer {
+  height: 50%;
+  background-color: limegreen;
+}
+
 table {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   border-collapse: collapse;
 }
 
