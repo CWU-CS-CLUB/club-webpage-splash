@@ -9,8 +9,9 @@ body {
 }
 
 .title {
-  font-size: 400%;
+  font-size: 500%;
   font-family: 'Brush Script MT', cursive;
+  margin-bottom: -1%;
 }
 
 h1, h2 {
