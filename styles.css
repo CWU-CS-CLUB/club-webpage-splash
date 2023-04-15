@@ -1,6 +1,6 @@
 body {
   background-color: powderblue;
-  background-image: url('cat2.jpg');
+  border-style: solid;
 }
 
 h1 {
@@ -9,31 +9,51 @@ h1 {
 
 .subtitle {
   text-align: center;
+  background-color: black;
+  color: cyan;
 }
 
 .glow {
   font-size: 80px;
-  color: #fff;
   text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+  text-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }
 
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
   }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  20%, 24%, 55% {       
+    text-shadow: none;
   }
 }
 
 p {
-  color: red;
+  color: white;
 }
 
 .banner {
-    background-image: url('scene.jpg');
+    background-image: url('club.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
