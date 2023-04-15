@@ -10,10 +10,15 @@ h1 {
 
 table {
   width: 100%;
+  border-collapse: collapse;
 }
 
-table, th, td {
-  border:1px solid black;
+th {
+  background-color: green;
+}
+
+th, td {
+  border:1px solid cyan;
   text-align: center;
   color: white;
 }
