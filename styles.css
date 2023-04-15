@@ -10,6 +10,7 @@ body {
 
 .title {
   font-size: 400%;
+  font-family: 'Brush Script MT', cursive;
 }
 
 h1, h2 {
@@ -65,6 +66,7 @@ th, td {
 p {
   color: white;
   text-align: center;
+  font-family: 'Courier New', monospace;
 }
 
 .banner {
