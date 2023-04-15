@@ -4,10 +4,15 @@ body {
   border-color: cyan;
 }
 
-h1 {
+h1, h2 {
   color: cyan;
   text-align: center;
 }
+
+h2 {
+  background-color: darkgreen;
+}
+
 
 footer {
   height: 50%;
