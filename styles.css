@@ -4,7 +4,18 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: cyan;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  color: white;
 }
 
 .subtitle {
@@ -50,6 +61,7 @@ h1 {
 
 p {
   color: white;
+  text-align: center;
 }
 
 .banner {
@@ -57,5 +69,4 @@ p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 100%;
 }
