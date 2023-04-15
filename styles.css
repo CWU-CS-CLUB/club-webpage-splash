@@ -5,7 +5,11 @@ body {
 }
 
 .flicker {
-  -webkit-animation: flicker 2s infinite;
+  -webkit-animation: flicker 3s infinite;
+}
+
+.title {
+  font-size: 400%;
 }
 
 h1, h2 {
