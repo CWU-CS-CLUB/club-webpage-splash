@@ -71,6 +71,8 @@ p {
   color: white;
   text-align: center;
   font-family: 'Courier New', monospace;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .banner {
