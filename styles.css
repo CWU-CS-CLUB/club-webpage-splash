@@ -76,6 +76,7 @@ p {
 }
 
 .banner {
+    background-color: black;
     background-image: url('rain.gif');
     background-attachment: fixed;
     background-repeat: no-repeat;
