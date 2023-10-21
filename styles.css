@@ -10,31 +10,21 @@ marquee {
   color: cyan;
 }
 
-.flicker {
-  -webkit-animation: flicker 3s infinite;
-}
-
 .title {
   font-size: 500%;
   font-family: 'Brush Script MT', cursive;
   margin-bottom: -1%;
 }
 
-h1, h2 {
-  color: cyan;
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  align-self:flex-end;
   text-align: center;
 }
 
-@-webkit-keyframes flicker {
-  0% {opacity:0;}
-  9% {opacity:0;}
-  10% {opacity:.5;}
-  13% {opacity:0;}
-  20% {opacity:.5;}
-  25% {opacity:1;}
-}
-
 h2 {
+  color: cyan;
   text-align: center;
   white-space: nowrap;
 }
@@ -82,4 +72,18 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 1%;
+}
+
+.logo {
+  background-image: url('computer_science_club_ai_logo1.png');
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust to contain to ensure logo is fully visible */
+  padding: 10%; /* Adjust padding as needed */
+  width: 50vw; /* Set width to 50% of the viewport width */
+  height: 50vw; /* Set height to 50% of the viewport width */
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; /* Center logo horizontally */
 }
