@@ -79,8 +79,8 @@ p {
   background-repeat: no-repeat;
   background-size: contain; /* Adjust to contain to ensure logo is fully visible */
   padding: 10%; /* Adjust padding as needed */
-  width: 50vw; /* Set width to 50% of the viewport width */
-  height: 50vw; /* Set height to 50% of the viewport width */
+  width: 20vw; /* Set width to 50% of the viewport width */
+  height: 20vw; /* Set height to 50% of the viewport width */
   position: relative; 
   display: flex;
   justify-content: center;
