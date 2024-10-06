@@ -72,18 +72,19 @@ p {
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .logo {
   background-image: url('computer_science_club_ai_logo1.png');
   background-repeat: no-repeat;
-  background-size: contain; /* Adjust to contain to ensure logo is fully visible */
-  padding: 10%; /* Adjust padding as needed */
-  width: 10vw; /* Set width to 50% of the viewport width */
-  height: 10vw; /* Set height to 50% of the viewport width */
+  background-size: contain;
+  padding: 5%;
+  width: 80px;
+  height: 80px;
   position: relative; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto; /* Center logo horizontally */
+  margin: auto;
 }
